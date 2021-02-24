@@ -25,14 +25,7 @@ Metodę Newtona z modyfikacją nazywa się metodą Newtona-Raphsona, a sama mody
 Iteracyjny algorytm optymalizacji lokalnej.
 
 ### Zastosowane kryteria stopu
-ε≤10−3
 
-dla gradientu: <∇𝑓(𝑥),∇𝑓(𝑥)>≤ε1 
 
-dla x: ||𝑥𝑛−𝑥𝑛−1||≤ε2 
-
-dla f(x): |f(xn)−f(xn−1)|≤ε3 
-
-liczba iteracji: 𝐿 
-
-Zbieżność zastosowanego algorytmu: kwadratowa
+### Schemat działania algorytmu
+1. Wybierz punkt startowy 𝑥0=𝑥𝑘. Oblicz wartość funkcji f(𝑥𝑘) oraz jej gradient ∇ f(xk). (2) Zbadaj kryterium zbieżności (stopu). (3) Jeśli spełnione to koniec, w przeciwnym razie przejdź do (4). (4) Wyznacz kierunek poszukiwań: dk=−H−1∇ f(xk) (5) Wykonaj minimalizację kierunkową wybraną metodą: 𝑥𝑘−1∈𝑇(𝑥𝑘,𝑑𝑘) (6) Podstaw 𝑥𝑘⟸𝑥𝑘−1 oraz 𝑘⇐𝑘+1 i powtórz krok (1).
