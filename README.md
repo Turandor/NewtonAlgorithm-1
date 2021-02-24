@@ -26,6 +26,9 @@ Iteracyjny algorytm optymalizacji lokalnej.
 
 ### Zastosowane kryteria stopu
 
+![Main menu](./images/MainManu.png)
+
+Zbieżność zastosowanego algorytmu: kwadratowa
 
 ### Schemat działania algorytmu
 1. Wybierz punkt startowy 𝑥0=𝑥𝑘. Oblicz wartość funkcji f(𝑥𝑘) oraz jej gradient ∇ f(xk). (2) Zbadaj kryterium zbieżności (stopu). (3) Jeśli spełnione to koniec, w przeciwnym razie przejdź do (4). (4) Wyznacz kierunek poszukiwań: dk=−H−1∇ f(xk) (5) Wykonaj minimalizację kierunkową wybraną metodą: 𝑥𝑘−1∈𝑇(𝑥𝑘,𝑑𝑘) (6) Podstaw 𝑥𝑘⟸𝑥𝑘−1 oraz 𝑘⇐𝑘+1 i powtórz krok (1).
