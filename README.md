@@ -26,7 +26,7 @@ Iteracyjny algorytm optymalizacji lokalnej.
 
 ### Zastosowane kryteria stopu
 
-![Main menu](./images/MainManu.png)
+![1](./images/1.png)
 
 Zbieżność zastosowanego algorytmu: kwadratowa
 
