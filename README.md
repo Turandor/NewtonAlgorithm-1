@@ -83,3 +83,12 @@ Algorytm zakończył działanie po siedmiu iteracjach. Aktywowanym kryterium sto
 ![9](./Screenshots/9.png)
 
 ![10](./Screenshots/10.png)
+
+
+# Instalacja
+
+# Bibliografia
+1. http://staff.iiar.pwr.wroc.pl/ewa.szlachcic/materialy%20dydaktyczne/air_studia_2_stopnia/FINDEISEN_Metody_obliczeniowe_optymalizacji.pdf - Metoda Newtona
+2. http://www.ing.unitn.it/~bertolaz/2-teaching/2011-2012/AA-2011-2012-OPTIM/lezioni/slides-mND.pdf - Metoda Armijo
+3. https://www.uio.no/studier/emner/matnat/math/MAT-INF1100/h07/undervisningsmateriale/kap7.pdf – Wzór hesjan w punkcie
+4. https://github.com/AwokeKnowing/GnuplotCSharp - biblioteka gnuplot dla C#
