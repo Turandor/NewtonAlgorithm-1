@@ -54,3 +54,32 @@ Wyniki działania algorytmu są prezentowane na kilka sposobów. Pierwszy z nich
 ![5](./Screenshots/5.png)
 
 ![6](./Screenshots/6.png)
+
+### Zasady wprowadzania danych początkowych
+
+1. Użytkownik samodzielnie podaje funkcję do zbadania. Dozwolone funkcje w programie to: 
+2. wielomianowe,
+3. wykładnicze (eksponencjalne),
+4. logarytmiczne,
+5. potęgowe,
+6. trygonometryczne.
+ 
+Maksymalna ilość zmiennych x to 5. Następnie użytkownik może podać maksymalną liczbę iteracji algorytmu (domyślnie 50), a także punkty startowe x0. Do wykreślania wykresów użytkownik podaje zakres przedziałów do wyświetlenia oraz krok wykreślania kolejnych punktów wykresu. 
+
+### Przykład testowy - funkcja rosenbrocka
+
+#### Funkcja Rosenbrocka
+
+Funkcja Rosenbrocka z jednym minimum globalnym. Funkcja tego typu powinna z każdego punktu startowego docierać do minimum globalnego. Algorytm w tym przykładzie nie powinien utknąć w punkcie w pewien sposób dla siebie „osobliwym”. Postać funkcji wyraża wzór:
+
+![7](./Screenshots/7.png)
+
+Wybrany punkt startowy algorytmu to x0=(-1,2;1). Liczbę iteracji ustawiono na domyślną wartość 50. Przedziały wykresów również ustawiono na domyślną wartość to znaczy x,y∈〈-2,2〉 a krok rysowania na 0,1.
+
+Algorytm zakończył działanie po siedmiu iteracjach. Aktywowanym kryterium stopu była wartość bezwzględna z różnicy kolejnych iteracji. Znaleziony punkt optymalny to x7=(0,997;0,994) a wartość funkcji w tym punkcie wyniosła F(x7)=0,000. Porównując z teoretycznymi wartościami tej funkcji wynoszącymi: xop=(1;1) i F(xop)=0 otrzymane wyniki są zadowalająco dobre.
+
+![8](./Screenshots/8.png)
+
+![9](./Screenshots/9.png)
+
+![10](./Screenshots/10.png)
