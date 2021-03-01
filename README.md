@@ -15,7 +15,7 @@ Współautorem jest Dorian Janiak ([Yep97](https://github.com/Yep97))
 
 Temat projektu to:
 
-Zastosowanie zmodyfikowanej metody Newtona do znajdowania minimum funkcji nieliniowej.
+**Zastosowanie zmodyfikowanej metody Newtona do znajdowania minimum funkcji nieliniowej.**
 
 ## Szczegółowe omówienie algorytmu optymalizacji
 
