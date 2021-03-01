@@ -87,6 +87,18 @@ Algorytm zakończył działanie po siedmiu iteracjach. Aktywowanym kryterium sto
 
 # Instalacja
 
+Do napisania programu implementującego algorytm Newton’a został wykorzystany język **C#** wraz z zintegrowanym środowiskiem programistycznym **Visual Studio**. Projekt opiera się na platformie **WPF** służącej do tworzenia aplikacji okienkowych. Do implementacji parsera funkcji użyto biblioteki **„Mxparser”**. Wizualizacje wykresów wykonano za pomocą biblioteki **„GnuplotCSharp”**. Jako pomocniczą bibliotekę do zaawansowanych działań matematycznych oraz operacji na zbiorach liczb wykorzystano **„Accord”**. Reszta użytych bibliotek to wbudowane biblioteki systemowe.
+
+Aby uruchomić ten projekt trzeba sklonować repozytorium i zaimportować je do Visual Studio
+```
+$ git clone git@github.com:Turandor/NewtonAlgorithm-1.git
+```
+
+Dodatkowo trzeba pobrać biblioteki:
+1. [Mxparser](http://mathparser.org/)
+2. [Gnuplot](http://www.gnuplot.info/)
+3. [Accord](http://accord-framework.net/docs/html/N_Accord_Math.htm)
+
 # Bibliografia
 1. http://staff.iiar.pwr.wroc.pl/ewa.szlachcic/materialy%20dydaktyczne/air_studia_2_stopnia/FINDEISEN_Metody_obliczeniowe_optymalizacji.pdf - Metoda Newtona
 2. http://www.ing.unitn.it/~bertolaz/2-teaching/2011-2012/AA-2011-2012-OPTIM/lezioni/slides-mND.pdf - Metoda Armijo
