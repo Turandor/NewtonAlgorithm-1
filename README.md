@@ -46,5 +46,6 @@ Do napisania programu implementującego algorytm Newton’a został wykorzystany
 ## Działanie programu
 
 Program działa w trybie graficznym i wygląda tak jak zdjęciu poniżej. 
-Wyniki działania algorytmu są prezentowane na kilka sposobów. Pierwszy z nich to postać wynikowa, w której pokazana jest kolejno: wartość funkcji w punktach optymalnych, wartości punktów optymalnych oraz kryterium stopu, które zatrzymało algorytm. Drugi to postać wpisów kolejnych iteracji działania algorytmu w tabeli w dolej części okna. Wykreślone wyniki posiadają dokładność 10^(-3). Dodatkowo użytkownik może zlecić wykreślenie wykresu 3D badanej funkcji oraz wykresu warstwic wraz ze ścieżką z wyszczególnionymi punktami reprezentującymi kolejne iteracje algorytmu. Przykładowe wykresy zostały umieszczone na rysunkach 2 i 3.
+Wyniki działania algorytmu są prezentowane na kilka sposobów. Pierwszy z nich to postać wynikowa, w której pokazana jest kolejno: wartość funkcji w punktach optymalnych, wartości punktów optymalnych oraz kryterium stopu, które zatrzymało algorytm. Drugi to postać wpisów kolejnych iteracji działania algorytmu w tabeli w dolej części okna. Wykreślone wyniki posiadają dokładność ![image](https://user-images.githubusercontent.com/48029803/109538658-a413c280-7ac0-11eb-8a35-4fc7e0bd30b4.png)
+. Dodatkowo użytkownik może zlecić wykreślenie wykresu 3D badanej funkcji oraz wykresu warstwic wraz ze ścieżką z wyszczególnionymi punktami reprezentującymi kolejne iteracje algorytmu. Przykładowe wykresy zostały umieszczone na rysunkach 2 i 3.
 
