@@ -5,12 +5,13 @@
 ## Spis treści
 * [Informacje ogólne](#general-info)
 * [Szczegółowe omówienie algorytmu optymalizacji](#features)
+* [Technologie](#technology)
 * [Instalacja](#setup)
 * [Bibliografia](#bibliography)
 
 ## Informacje ogólne
 Projekt powstał w ramach zajęć "Teoria i Metody Optymalizacji" na studiach magisterskich na kierunku Automatyka i Robotyka.
-Współautorem jest Dorian Janiak
+Współautorem jest Dorian Janiak ([Yep97](https://github.com/Yep97))
 
 Temat projektu to:
 
@@ -31,4 +32,19 @@ Iteracyjny algorytm optymalizacji lokalnej.
 Zbieżność zastosowanego algorytmu: kwadratowa
 
 ### Schemat działania algorytmu
-1. Wybierz punkt startowy 𝑥0=𝑥𝑘. Oblicz wartość funkcji f(𝑥𝑘) oraz jej gradient ∇ f(xk). (2) Zbadaj kryterium zbieżności (stopu). (3) Jeśli spełnione to koniec, w przeciwnym razie przejdź do (4). (4) Wyznacz kierunek poszukiwań: dk=−H−1∇ f(xk) (5) Wykonaj minimalizację kierunkową wybraną metodą: 𝑥𝑘−1∈𝑇(𝑥𝑘,𝑑𝑘) (6) Podstaw 𝑥𝑘⟸𝑥𝑘−1 oraz 𝑘⇐𝑘+1 i powtórz krok (1).
+
+![2](./Screenshots/2.png)
+
+### Ograniczenia algorytmu
+
+![3](./Screenshots/3.png)
+
+## Technologie
+
+Do napisania programu implementującego algorytm Newton’a został wykorzystany język **C#** wraz z zintegrowanym środowiskiem programistycznym **Visual Studio**. Projekt opiera się na platformie **WPF** służącej do tworzenia aplikacji okienkowych. Do implementacji parsera funkcji użyto biblioteki **„Mxparser”**. Wizualizacje wykresów wykonano za pomocą biblioteki **„GnuplotCSharp”**. Jako pomocniczą bibliotekę do zaawansowanych działań matematycznych oraz operacji na zbiorach liczb wykorzystano **„Accord”**. Reszta użytych bibliotek to wbudowane biblioteki systemowe.
+
+## Działanie programu
+
+Program działa w trybie graficznym i wygląda tak jak zdjęciu poniżej. 
+Wyniki działania algorytmu są prezentowane na kilka sposobów. Pierwszy z nich to postać wynikowa, w której pokazana jest kolejno: wartość funkcji w punktach optymalnych, wartości punktów optymalnych oraz kryterium stopu, które zatrzymało algorytm. Drugi to postać wpisów kolejnych iteracji działania algorytmu w tabeli w dolej części okna. Wykreślone wyniki posiadają dokładność 10^(-3). Dodatkowo użytkownik może zlecić wykreślenie wykresu 3D badanej funkcji oraz wykresu warstwic wraz ze ścieżką z wyszczególnionymi punktami reprezentującymi kolejne iteracje algorytmu. Przykładowe wykresy zostały umieszczone na rysunkach 2 i 3.
+
